@@ -1,0 +1,19 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "Weekly Mission 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliciaGaona/spiderverse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliciaGaona/spiderverse/issues"
+  },
+  "homepage": "https://github.com/AliciaGaona/spiderverse#readme"
+}

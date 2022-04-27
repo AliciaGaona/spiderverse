@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AliciaGaona/spiderverse/issues"
   },
-  "homepage": "https://github.com/AliciaGaona/spiderverse#readme"
+  "homepage": "https://github.com/AliciaGaona/spiderverse#readme",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
 }

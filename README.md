@@ -1,4 +1,4 @@
 # spiderverse
  Weekly Mission 3
  ---
- Se ahacen pruebas unitarias con TDD
+ Se hacen pruebas unitarias con TDD

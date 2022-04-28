@@ -22,4 +22,7 @@ describe("Test Suite Dummy Description", () => {
     });
   })
 
-
+   test('1) Use the method getInfo()', ()=>{
+    const tomHolland = new Spiderman("Spiderman Marvel",25,"Tom Holland",5,"Marveñ")
+    expect(tomHolland.getInfo()).toBe("Hey, I´m Tom Holland from Marvel studio")
+   });

@@ -6,6 +6,9 @@ class Spiderman{
         this.numeroPeliculas=numeroPeliculas
         this.estudioCine=estudioCine
     }
+      getInfo(){
+        return `Hey, I´m ${this.actor} from ${this.estudioCine} studio`
+      }   
 }
 
 //exporto mi clase

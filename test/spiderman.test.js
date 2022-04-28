@@ -9,11 +9,7 @@ describe("Test Suite Dummy Description", () => {
 
   describe("Unit Test for Spiderman class", () => {
     test('1) Create an spiderman object', () => {
-      //escribimos el código que queremos usar tal cuál
-      //Quiero poder instanciar un objeto Spiderman con esta info
       const andrewGarfield= new Spiderman ("Spiderman Sony", 31, "Andrew Garfield",31,"Sony")
-
-      //validamos que este código funcione de la forma esperada
       expect(andrewGarfield.nombre).toBe("Spiderman Sony")
       expect(andrewGarfield.edad).toBe(31)
       expect(andrewGarfield.actor).toBe("Andrew Garfield")
@@ -23,6 +19,10 @@ describe("Test Suite Dummy Description", () => {
   })
 
    test('1) Use the method getInfo()', ()=>{
-    const tomHolland = new Spiderman("Spiderman Marvel",25,"Tom Holland",5,"Marveñ")
+    const tomHolland = new Spiderman("Spiderman Marvel",25,"Tom Holland",5,"Marvel")
     expect(tomHolland.getInfo()).toBe("Hey, I´m Tom Holland from Marvel studio")
+    console.log(tomHolland.getInfo())
    });
+
+
+  
